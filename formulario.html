@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        h1{
+            margin: auto;
+            text-align: center;
+            font-size: 30px;
+        }
+        form{
+            margin: 0 auto;
+            width: 300px;
+            background-color: azure;
+            color: #999;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        input, textarea{
+            outline: none;
+            border:0;
+            width: 287px;
+
+        }
+        .field{
+            border: 1px solid #ccc;
+            padding: 5px;
+            
+        }
+        .field:focus{
+            border-color: aquamarine;
+            
+        }
+        .center-content{
+            text-align: center;
+        }
+        .btn bt-green{
+            background-color: aqua;
+            color: #999;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Formulario de Contacto </h1>
+    <br>
+    <form action="https://formsubmit.co/c97f383873a81d6c42a9e3b034b1aa43" method="POST">
+            <p>Nombre </p>
+            <input type="text"class="field" name="nombre completo"><br>
+            <p>Correo Electronico </p>
+            <input type="text"class="field" name="Correo electronico"><br>
+            <p>Asunto </p>
+            <input type="text"class="field"name="asunto"><br>
+            <p>Mensaje</p>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar formaulario</button>
+
+
+
+
+
+
+    </form>
+</body>
+</html>
